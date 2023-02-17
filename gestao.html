@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sistema de gestão de estoque</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Sistema de gestão de estoque Xayk</h1>
+    </header>
+    <main>
+      <form>
+        <label for="item-name">Nome do item:</label>
+        <input type="text" id="item-name" name="item-name">
+        <label for="quantity">Quantidade:</label>
+        <input type="number" min="0" id="quantity" name="quantity">
+        <button type="submit" onclick="addItem(event)">Adicionar item</button>
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th>Lista de itens</th>
+            <th>Quantidade</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="item-list">
+        </tbody>
+      </table>
+    </main>
+    <footer>
+      <p>&copy; Gestões Xayk Gás</p>
+    </footer>
+
+    <script>
+      function addItem(event) {
+        event.preventDefault();
+
+        const itemName = document.getElementById("item-name").value;
+        const quantity = document.getElementById("quantity").value;
+
+        const tableRow = document.createElement("tr");
+
+        const itemNameCell = document.createElement("td");
+        itemNameCell.textContent = itemName;
+        tableRow.appendChild(itemNameCell);
+
+        const quantityCell = document.createElement("td");
+        quantityCell.textContent = quantity;
+        tableRow.appendChild(quantityCell);
+
+        const removeButton = document.createElement("button");
+        removeButton.textContent = "Remover";
+        removeButton.onclick = function() {
+          tableRow.remove();
+        };
+        const actionsCell = document.createElement("td");
+        actionsCell.appendChild(removeButton);
+        tableRow.appendChild(actionsCell);
+
+        const itemList = document.getElementById("item-list");
+        itemList.appendChild(tableRow);
+
+        document.getElementById("item-name").value = "";
+        document.getElementById("quantity").value = "";
+      }
+    </script>
+  </body>
+</html>
