@@ -1,0 +1,107 @@
+[
+  {
+    "produto": "Arroz",
+    "marca": "Tio João",
+    "quantidade": "1kg",
+    "preco": 5.99,
+    "categoria": "grãos"
+  },
+  {
+    "produto": "Feijão",
+    "marca": "Camil",
+    "quantidade": "1kg",
+    "preco": 7.99,
+    "categoria": "grãos"
+  },
+  {
+    "produto": "Açúcar",
+    "marca": "União",
+    "quantidade": "1kg",
+    "preco": 4.99,
+    "categoria": "açúcares"
+  },
+  {
+    "produto": "Sal",
+    "marca": "Cisne",
+    "quantidade": "1kg",
+    "preco": 3.50,
+    "categoria": "temperos"
+  },
+  {
+    "produto": "Óleo",
+    "marca": "Liza",
+    "quantidade": "900ml",
+    "preco": 5.99,
+    "categoria": "óleos"
+  },
+  {
+    "produto": "Leite",
+    "marca": "Parmalat",
+    "quantidade": "1L",
+    "preco": 3.99,
+    "categoria": "laticínios"
+  },
+  {
+    "produto": "Manteiga",
+    "marca": "Qualy",
+    "quantidade": "200g",
+    "preco": 5.49,
+    "categoria": "laticínios"
+  },
+  {
+    "produto": "Queijo",
+    "marca": "Polenghi",
+    "quantidade": "500g",
+    "preco": 12.99,
+    "categoria": "laticínios"
+  },
+  {
+    "produto": "Iogurte",
+    "marca": "Nestlé",
+    "quantidade": "1L",
+    "preco": 7.99,
+    "categoria": "laticínios"
+  },
+  {
+    "produto": "Ovos",
+    "marca": "Branco",
+    "quantidade": "30 unidades",
+    "preco": 12.99,
+    "categoria": "ovos"
+  },
+  {
+    "produto": "Pão",
+    "marca": "Wickbold",
+    "quantidade": "500g",
+    "preco": 6.99,
+    "categoria": "pães"
+  },
+  {
+    "produto": "Presunto",
+    "marca": "Sadia",
+    "quantidade": "200g",
+    "preco": 7.99,
+    "categoria": "frios"
+  },
+  {
+    "produto": "Mortadela",
+    "marca": "Sadia",
+    "quantidade": "200g",
+    "preco": 6.99,
+    "categoria": "frios"
+  },
+  {
+    "produto": "Salsicha",
+    "marca": "Perdigão",
+    "quantidade": "500g",
+    "preco": 8.99,
+    "categoria": "frios"
+  },
+  {
+    "produto": "Frango",
+    "marca": "Perdigão",
+    "quantidade": "1kg",
+    "preco": 11.99,
+    "categoria": "carnes"
+  },
+ 
